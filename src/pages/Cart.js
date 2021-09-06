@@ -13,13 +13,13 @@ function Cart() {
     ))
 
     function placeOrder() {
-        setButtonText('Ordering...')
+        setButtonText("Ordering...")
         setTimeout(() => {
             console.log("Order Placed")
             setButtonText('Place Orders')
+            emptyCart()
         }, 3000);
-        emptyCart()
-        // clearTimeout(timeoutID) 
+
     }
 
     return (

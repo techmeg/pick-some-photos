@@ -1,3 +1,6 @@
+# Project using various React hooks and exploring useContext
+Project built as a part of Scrimba React Bootcamp.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
