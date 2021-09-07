@@ -6,14 +6,13 @@ import App from './App'
 import {ContextProvider} from './Context'
 
 ReactDOM.render(
+  <React.StrictMode>
   <ContextProvider>
       <Router >
-      <React.StrictMode>
         <App />
-      </React.StrictMode>
     </Router>
   </ContextProvider>
-,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
